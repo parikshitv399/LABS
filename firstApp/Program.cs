@@ -61,6 +61,7 @@ static float Div(Int32 num1, Int32 num2)
 {
     return num1 / num2;
 }
+#endregion
 //----------------------------------------------------------------------
 Console.WriteLine($"Calling Increment without a parameter : {Increment()}");
 Console.WriteLine($"Calling Increment with a parameter: {Increment(100)}");
